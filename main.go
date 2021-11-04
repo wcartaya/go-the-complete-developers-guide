@@ -10,6 +10,11 @@ func main() {
 		remainingCards.print()
 	*/
 	cards := newDeck()
-	//fmt.Println(cards.toString())
-	cards.saveToFile("temp.txt")
+	/*
+		cards.saveToFile("temp.txt")
+
+		newDecks := newDeckFromFile("temp.txt")
+	*/
+	cards.shuffle()
+	cards.print()
 }
