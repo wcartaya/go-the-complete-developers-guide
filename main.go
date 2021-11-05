@@ -12,7 +12,6 @@ func main() {
 	cards := newDeck()
 	/*
 		cards.saveToFile("temp.txt")
-
 		newDecks := newDeckFromFile("temp.txt")
 	*/
 	cards.shuffle()
